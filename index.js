@@ -2,7 +2,8 @@ var express = require('express'),
   app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hi There from Express!!!');
+  res.send('{data: 23456456}');
+  //res.send('Hi There from Express!!!');
 });
 
 app.get('/happy', function (req, res) {
